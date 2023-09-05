@@ -1,0 +1,21 @@
+{
+    "name": "pablo/bienesraices",
+    "description": "Proyecto con Proyecto con Programacion Orientado a Objetos",
+    "authors": [
+        {
+            "name": "Pablo",
+            "email": "pablovivasgarcia1@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
